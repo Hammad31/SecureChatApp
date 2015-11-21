@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/messageBack"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imgHeader"
+        android:layout_width="269.5dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/back_b"
+        android:layout_marginBottom="-10dp"
+
+        />
+
+    <TextView
+        android:layout_width="260dp"
+        android:layout_height="wrap_content"
+        android:text="sdfsdfsfsfsdfsfsdfsdfsfs"
+        android:textSize="15sp"
+        android:paddingLeft="4dp"
+        android:paddingRight="4dp"
+        android:layout_marginTop="-4dp"
+        android:layout_marginLeft="9dp"
+        android:background="#03A9F4"
+        android:id="@+id/tvMssage"
+        />
+</LinearLayout>
